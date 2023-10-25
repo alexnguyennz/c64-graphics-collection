@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Jost", system-ui, sans-serif;
+}
+
+.v-navigation-drawer__content,
+.v-toolbar-title__placeholder {
+  font-family: "Jost", system-ui, sans-serif;
+}
+
+h1 {
+  @apply mb-6 text-center text-3xl tracking-tight;
+}
+
+h2 {
+  @apply text-center text-3xl tracking-tight;
+}
+
+/* page transition */
+.page-enter-active,
+.page-leave-active {
+  @apply transition;
+}
+.page-enter-from,
+.page-leave-to {
+  @apply -translate-x-10 opacity-0;
+}
+
+.release-img {
+  image-rendering: pixelated;
+}
+
+/*
+.v-toolbar-title a {
+    font-family: "C64", system-ui, sans-serif !important;
+}*/
+
+/*
+.v-navigation-drawer__content .v-list-item-title {
+    font-weight: bold !important;
+}*/
