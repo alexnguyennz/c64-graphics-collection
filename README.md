@@ -8,8 +8,7 @@
 
 ## Environment Variables
 ```
-SUPABASE_URL=
-SUPABASE_KEY=
-NUXT_PUBLIC_PRODUCTION_URL=https://c64dev.netlify.app
-NITRO_PRESET=netlify_edge
+SUPABASE_URL=fromsupabasedashboard
+SUPABASE_KEY=fromsupabasedashboard
+NUXT_PUBLIC_PRODUCTION_URL=https://c64graphicscollection.netlify.app
 ```
